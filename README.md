@@ -9,13 +9,13 @@ Simple logging with descriptions and colors. Tested in Chrome. Version 0.1
 ```javascript
 log(users);
 ```
-![simple](https://raw.github.com/ggregoire/log.js/master/imgs/01.png)
+![simple](https://raw.github.com/ggregoire/log.js/master/img/01.png)
 
 ###With a description:
 ```javascript
 log('User added in the db', user);
 ```
-![with a description](https://raw.github.com/ggregoire/log.js/master/imgs/02.png)
+![with a description](https://raw.github.com/ggregoire/log.js/master/img/02.png)
 
 ###With another color:
 
@@ -29,7 +29,7 @@ log('User added in the db', user, 'blue');
 log('User added in the db', user, 'cyan');
 log('User added in the db', user, 'green');
 ```
-![with another color 1](https://raw.github.com/ggregoire/log.js/master/imgs/03.png)
+![with another color 1](https://raw.github.com/ggregoire/log.js/master/img/03.png)
 
 Or
 
@@ -40,4 +40,4 @@ log('User added in the db', user);
 logColor = 'green';
 log('User added in the db', user);
 ```
-![with another color 2](https://raw.github.com/ggregoire/log.js/master/imgs/04.png)
+![with another color 2](https://raw.github.com/ggregoire/log.js/master/img/04.png)
