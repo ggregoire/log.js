@@ -1,7 +1,7 @@
 Documentation
 =============
 
-Simple logging with descriptions and colors. Tested in Chrome. Version 0.1
+Simple logging with descriptions and colors. Tested in Chrome and Firebug. Version 0.1
 
 ##Examples
 
