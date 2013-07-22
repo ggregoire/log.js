@@ -7,7 +7,7 @@ Simple logging with descriptions and colors. Tested in Chrome. Version 0.1
 
 ###Simple:
 ```javascript
-log(users);
+log(user);
 ```
 ![simple](https://raw.github.com/ggregoire/log.js/master/img/01.png)
 
