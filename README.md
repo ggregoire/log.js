@@ -17,7 +17,7 @@ log('User added in the db', user);
 ```
 ![with a description](https://raw.github.com/ggregoire/log.js/master/img/02.png)
 
-###With another color:
+###With an other color:
 
 ```javascript
 log('User added in the db', user, 'yellow');
