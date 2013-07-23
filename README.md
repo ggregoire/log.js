@@ -1,7 +1,7 @@
 Documentation
 =============
 
-Simple logging with descriptions and colors. Tested in Chrome and Firebug. Version 0.1
+Simple logging with descriptions and colors. Tested in Chrome and Firebug. Version 0.2
 
 ##Examples
 
@@ -13,31 +13,39 @@ log(user);
 
 ###With a description:
 ```javascript
-log('User added in the db', user);
+log('new user', user);
+log('firstname', user.firstname);
+log('firstname length', user.firstname.length);
+log('test the length > 3', user.firstname.length > 3);
 ```
 ![with a description](https://raw.github.com/ggregoire/log.js/master/img/02.png)
 
-###With an other color:
+###With an other text color:
 
 ```javascript
-log('User added in the db', user, 'yellow');
-log('User added in the db', user, 'orange');
-log('User added in the db', user, 'red');
-log('User added in the db', user, 'magenta');
-log('User added in the db', user, 'violet');
-log('User added in the db', user, 'blue');
-log('User added in the db', user, 'cyan');
-log('User added in the db', user, 'green');
+log('new user', user, 'yellow');
+log('new user', user, 'orange');
+log('new user', user, 'red');
+log('new user', user, 'magenta');
+log('new user', user, 'violet');
+log('new user', user, 'blue');
+log('new user', user, 'cyan');
+log('new user', user, 'green');
 ```
-![with another color 1](https://raw.github.com/ggregoire/log.js/master/img/03.png)
+![with an other text color 1](https://raw.github.com/ggregoire/log.js/master/img/03.png)
 
 Or
 
 ```javascript
-var logColor = 'yellow';
-log('User added in the db', user);
-
-logColor = 'green';
-log('User added in the db', user);
+log_settings.color = 'yellow';
+log('new user', user);
 ```
-![with another color 2](https://raw.github.com/ggregoire/log.js/master/img/04.png)
+![with an other text color 2](https://raw.github.com/ggregoire/log.js/master/img/04.png)
+
+###With an other background color:
+
+```javascript
+log_settings = { background: 'dark', color: 'yellow' };
+log('new user', user);
+```
+![with an other background color](https://raw.github.com/ggregoire/log.js/master/img/05.png)
